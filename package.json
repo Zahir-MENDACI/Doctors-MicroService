@@ -1,0 +1,24 @@
+{
+  "name": "doctors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "firebase-admin": "^10.0.2",
+    "geofirestore": "^5.0.0",
+    "http": "0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12"
+  }
+}
