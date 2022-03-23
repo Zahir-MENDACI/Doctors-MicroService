@@ -11,8 +11,6 @@ API Doctors
 ```bash
 # Without Docker
 
-# Note: It is assumed here that you have MongoDB running in the background and that you have created the database.
-
 # Install NPM dependencies.
 npm install;
 
