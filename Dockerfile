@@ -11,6 +11,7 @@ COPY package*.json ./
 RUN npm install -g typescript
 RUN npm install -g ts-node
 RUN npm install
+RUN npm install -g firebase-tools
 # RUN npm run build
 # If you are building your code for production
 # RUN npm ci --only=production
